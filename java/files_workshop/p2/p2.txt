@@ -1,0 +1,88 @@
+Question 2: Vehicle Tracking & Condition Analysis
+
+You are given a CSV file named vehicles.csv that stores basic info about vehicles and their service remarks.
+
+Each row contains:
+
+text
+vehicleNo,model,owner,kmsDriven,serviceRemarks
+
+
+ Condition Category Rules
+
+Based on the serviceRemarks field, assign each vehicle a condition category:
+
+* "Excellent" if remarks contain any of:
+  "smooth", "well maintained", "no issues"
+* "Good" if remarks contain any of:
+  "minor scratches", "regular service", "timely maintenance"
+* "Average" if remarks contain any of:
+  "noise", "mileage drop", "alignment issues"
+* "Poor" if remarks contain any of:
+  "engine issues", "leaks", "breakdown", "major repair"
+
+If multiple categories match for a single remark, always choose the worst condition in the order:
+
+text
+Excellent > Good > Average > Poor
+
+
+So "engine issues but otherwise well maintained" → "Poor" dominates.
+
+If no keywords match, assign "Average" by default.
+
+ Program Requirements
+
+Write a Java program that:
+
+1. Reads the vehicles.csv file using Java I/O (FileReader, BufferedReader, etc.).
+2. For each record:
+
+   * Parses vehicleNo, model, owner, kmsDriven, and serviceRemarks.
+   * Computes the condition category according to the rules.
+   * Stores each vehicle in a suitable collection, e.g. ArrayList<Vehicle>.
+3. Implements the following operations:
+
+ (a) Sort by Kilometers Driven (Ascending)
+
+* Sort vehicles by kmsDriven (least driven first).
+* Display the sorted list, printing for each:
+
+text
+model kmsDriven conditionCategory serviceRemarks
+
+
+ (b) Sort by Condition (Excellent → Poor), then by Kilometers (Ascending)
+
+* Sort vehicles:
+
+  * First by condition category in the order: Excellent, Good, Average, Poor.
+  * For same category, sort by kmsDriven (ascending).
+* Display for each vehicle:
+
+vehicleNo owner conditionCategory kmsDriven
+
+(c) Display all the excellent  cars 
+(d) Display all the poor cars 
+(e)Display the car which is driven the most
+(f) Display all the cars which have crossed 50,000 kms
+(h)Display all the cars starting from "H"
+(i) Display the owner who has harly driven the car  
+
+
+---
+
+ Sample vehicles.csv
+
+csv
+vehicleNo,model,owner,kmsDriven,serviceRemarks
+AP09AB1234,Honda City,Rahul Verma,42000,Smooth drive and well maintained with no issues reported
+TS10CD5678,Hyundai i20,Sneha Reddy,68000,Regular service done but minor scratches on rear bumper
+KA05EF2468,Maruti Swift,Amit Rao,93000,Some noise from engine and mileage drop observed
+MH12GH3579,Toyota Innova,Neha Sharma,150000,Engine issues reported and major repair recommended
+DL01JK7890,Hyundai Creta,Varun Malhotra,31000,Well maintained vehicle with timely maintenance and no issues
+WB06LM4567,Tata Nexon,Arjun Sen,57000,Alignment issues and slight noise at high speed
+GJ18NP1122,Renault Kwid,Meera Patel,22000,Minor scratches on door but otherwise smooth performance
+TN09QR3344,Hyundai Venue,Suresh Iyer,84000,Mileage drop and occasional leaks in coolant pipe
+RJ14ST9988,Maruti Baleno,Prerna Gupta,49000,Smooth driving experience and regular service history
+KL07UV6655,Toyota Fortuner,Anil Nair,125000,Past breakdown on highway and engine issues under load

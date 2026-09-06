@@ -1,0 +1,253 @@
+MCQ  Unit-2
+
+1. Which of these keywords is used to define packages in Java?
+a) pkg
+b) Pkg
+c) package
+d) Package
+Answer: C
+
+2) Which of these is a mechanism for naming and visibility control of a class and its content?
+a) Object
+b) Packages
+c) Interfaces
+d) None of the Mentioned.
+Answer: b
+
+3) Which of this access specifies can be used for a class so that its members can be accessed by a different class in the same package?
+a) Public
+b) Protected
+c) No Modifier
+d) All of the mentioned
+Answer: d
+
+4)Which of these access specifiers can be used for a class so that its members can be accessed by a different class in the different package?
+a) Public
+b) Protected
+c) Private
+d) No Modifier
+Answer: a
+
+5) Which of the following is the correct way of importing an entire package ‘pkg’?
+a) import pkg.
+b) Import pkg.
+c) import pkg.*
+d) Import pkg.*
+Answer: c
+
+6)Which of the following is an incorrect statement about packages?
+a) Package defines a namespace in which classes are stored
+b) A package can contain other package within it
+c) Java uses file system directories to store packages
+d) A package can be renamed without renaming the directory in which the classes are stored
+Answer: d
+
+7)What will be the output of the following Java program?
+
+    package pkg;
+    class output 
+    {
+        public static void main(String args[])
+        { 
+            StringBuffer s1 = new StringBuffer("Hello");
+            s1.setCharAt(1, x);
+            System.out.println(s1);
+        }
+    }
+a) xello
+b) xxxxx
+c) Hxllo
+d) Hexlo
+Answer: c
+
+8)What will be the output of the following Java program?
+
+    package pkg;
+    class output 
+    {
+        public static void main(String args[])
+        {
+            StringBuffer s1 = new StringBuffer("Hello World");
+            s1.insert(6 , "Good ");
+            System.out.println(s1);
+        }
+   }
+Note : output.class file is not in directory pkg.
+
+a) HelloGoodWorld
+b) HellGoodoWorld
+c) Compilation error
+d) Runtime error
+View Answer
+
+Answer: d
+
+9) Which of these package is used for graphical user interface?
+a) java.applet
+b) java.awt
+c) java.awt.image
+d) java.io
+Answer: b
+
+10)Which of this package is used for analyzing code during run-time?
+a) java.applet
+b) java.awt
+c) java.io
+d) java.lang.reflect
+Answer: d
+Explanation: Reflection is the ability of a software to analyze itself. 
+This is provided by java.lang.reflect package.
+
+11)Which of this package is used for invoking a method remotely?
+a) java.rmi
+b) java.awt
+c) java.util
+d) java.applet
+Answer: a
+
+12)Which of these can be used to fully abstract a class from its implementation?
+a) Objects
+b) Packages
+c) Interfaces
+d) None of the Mentioned
+Answer: c
+
+13.Which of these access specifiers can be used for an interface?
+a) Public
+b) Protected
+c) private
+d) All of the mentioned
+Answer: a
+Explanation: Access specifier of an interface is either public or no specifier. 
+When no access specifier is used then default access specifier is used due to 
+which interface is available only to other members of the package in which it is declared, 
+when declared public it can be used by any code.
+
+14.Which of the following is an incorrect statement about interface?
+a) Interfaces specifies what class must do but not how it does
+b) Interfaces are specified public if they are to be accessed by any code in the program
+c) All variables in interface are implicitly final and static
+d) All variables are static and methods are public if interface is defined pubic
+Answer: d
+Explanation: All methods and variables are implicitly public if interface is declared public.
+
+
+15. What type of variable can be defined in an interface?
+a) public static
+b) private final
+c) public final
+d) static final
+Answer: d
+Explanation: variable defined in an interface is implicitly final and static. 
+They are usually written in capital letters.
+
+16.What will happen if we provide concrete implementation of method in interface?
+a) The concrete class implementing that method need not provide implementation of that method
+b) Runtime exception is thrown
+c) Compilation failure
+d) Method not found exception is thrown
+Answer: c
+
+17)What happens when we access the same variable defined in two interfaces 
+implemented by the same class?
+a) Compilation failure
+b) Runtime Exception
+c) The JVM is not able to identify the correct variable
+d) The interfaceName.variableName needs to be defined
+Answer: d
+Explanation: The JVM needs to distinctly know which value of variable it needs to use. 
+To avoid confusion to the JVM interfaceName.variableName is mandatory.
+
+18)Which of these classes is used for input and output operation when working with bytes?
+a) InputStream
+b) Reader
+c) Writer
+d) All of the mentioned
+Answer: a
+Explanation: InputStream & OutputStream are designed for byte stream. 
+Reader and writer are designed for character stream.
+
+19) Which of these class is used to read and write bytes in a file?
+a) FileReader
+b) FileWriter
+c) FileInputStream
+d) InputStreamReader
+Answer: c
+
+20)Which of these method of InputStream is used to read integer representation of next 
+available byte input?
+a) read()
+b) scanf()
+c) get()
+d) getInteger()
+Answer: a
+
+21) Which of these is a method to clear all the data present in output buffers?
+a) clear()
+b) flush()
+c) fflush()
+d) close()
+Answer: b
+
+22)Which of these method(s) is/are used for writing bytes to an outputstream?
+a) put()
+b) print() and write()
+c) printf()
+d) write() and read()
+Answer: b
+Explanation: write() and print() are the two methods of OutputStream that are used 
+for printing the byte data.
+
+23)What will be the output of the following Java program? (Note: inputoutput.java is stored in the disk.)
+
+    import java.io.*;
+    class filesinputoutput 
+    {
+        public static void main(String args[]) 
+        {
+            InputStream obj = new FileInputStream("inputoutput.java");
+            System.out.print(obj.available());
+        }
+    }
+a) true
+b) false
+c) prints number of bytes in file
+d) prints number of characters in the file
+Answer: c
+Explanation: obj.available() returns the number of bytes.
+
+24) Which of these class can be used to implement the input stream that uses 
+a character array as the source?
+a) BufferedReader
+b) FileReader
+c) CharArrayReader
+d) FileArrayReader
+Answer: c
+Explanation: CharArrayReader is an implementation of an input stream that uses
+character array as a source. Here array is the input source.
+
+25)Which of these classes can return more than one character to be returned to input stream?
+a) BufferedReader
+b) Bufferedwriter
+c) PushbachReader
+d) CharArrayReader
+View Answer
+
+Answer: c
+Explanation: PushbackReader class allows one or more characters to be returned 
+to the input stream. This allows looking ahead in input stream and performing action accordingly.
+
+26)Which exception is thrown by read() method?
+a) IOException
+b) InterruptedException
+c) SystemException
+d) SystemInputException
+Answer: a
+Explanation: read method throws IOException.
+
+27)Which of these class is used to read characters and strings in Java from console?
+a) BufferedReader
+b) StringReader
+c) BufferedStreamReader
+d) InputStreamReader
+Answer: a

@@ -1,0 +1,125 @@
+Question 1:
+
+Write a Java program with a main method that:
+
+Creates three threads, each printing the multiplication table of 3, 5, and 7.Pass the number to the thread through the constructor.
+
+Implement using Runnable.
+main() must:
+Create objects of the Runnable class
+Pass parameters (3, 5, 7)
+Start three threads
+********************************************************************
+Question2:
+Write a Java program where:
+A class TaskThread extends Thread
+The constructor accepts a taskName
+When run, it prints:
+<taskName> started by <thread-name>
+<taskName> running...
+<taskName> completed by <thread-name>
+
+main() must:
+Create three threads for tasks:
+“File Upload”
+“Data Backup”
+“Log Cleanup”
+Start all threads
+*********************************************************************
+Question 3:
+
+Write a Java program where:
+Thread-1 receives an integer array and computes the sum
+Thread-2 receives a string and prints its reverse
+Use constructors to pass data.
+main() must:
+Create Thread-1 with array {10, 20, 30, 40}
+Create Thread-2 with string "Multithreading"
+Start both threads
+
+*********************************************************************
+Question4:
+
+Write a Java program where a thread processes student data:
+(id, name, marks)
+When run, thread prints:
+Student <name> with ID <id> scored <marks> marks.
+main() must:
+Create 5 threads with different student objects
+Start all threads
+*******************************************************************
+Question5:
+
+Create an OrderProcessor class implementing Runnable that takes:
+orderId, customerName, amount
+When run, thread prints:
+Processing order <orderId> for <customerName> of amount Rs.<amount>
+Order <orderId> completed!
+
+main() must:
+Create 3 order threads
+Start them using new Thread(...).start()
+********************************************************************
+Question 6:
+
+Create a TaskRunner class with parameter taskType:
+
+"email" → print "Sending Email"
+
+"sms" → print "Sending SMS"
+
+"push" → print "Sending Push Notification"
+
+
+main() must:
+
+Create 3 threads with three different types
+
+Start the threads
+
+*********************************************************************
+Question 7:
+
+Create four thread classes, each performing a mathematical task:
+
+Thread	Parameter	Task
+
+T1	int n	factorial of n
+T2	int n	check prime
+T3	(a, b)	GCD of a and b
+T4	double r	area of circle
+
+
+main() must:
+
+Create objects of each thread class with required parameters
+
+Start the threads
+
+Display the results inside each thread’s run() method
+
+***************************************************************
+Question 8:
+
+Use Callable to create:
+
+Task 1 → return square of a number
+
+Task 2 → return uppercase of a string
+
+Task 3 → return length of a string array
+
+
+main() must:
+
+Create an ExecutorService with a thread pool
+
+Submit all 3 tasks
+
+Print the returned results using Future.get()
+
+Shutdown the executor
+
+
+
+

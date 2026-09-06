@@ -1,0 +1,21 @@
+1.Unique Characters Check
+
+Task: Given a string, determine if all characters are unique (ASCII).
+Example: "abcde" → true, "apple" → false
+Hint: Set<Character>.
+
+2.Pangram Detector
+
+Task: Given a sentence, check if it contains every letter a–z at least once (case-insensitive).
+Hint: Set<Character> size == 26.
+
+3.Order Variants
+
+Task: Insert [5,1,4,2,3] into HashSet, LinkedHashSet, TreeSet; print each to observe ordering.
+Expect: arbitrary / insertion / sorted.
+
+4.Case-Folding Email Local Parts
+
+Task: Given emails, count unique addresses after normalizing: lower-case, and removing dots in local part only (before @).
+Example: ["a.b@x.com","ab@x.com"] → 1
+Hint: Use Set<String> of normalized emails.

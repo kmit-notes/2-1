@@ -1,0 +1,51 @@
+bookingId,customerName,destination,packageCategory,transportType,travelCost,season,feedback
+601,Amit,Goa,Domestic,Flight,42000,Peak,Outstanding coordination and excellent service throughout
+602,Riya,Manali,Domestic,Bus,28000,OffSeason,Good experience but slow response during hotel changes
+603,Kunal,Paris,International,Flight,185000,Peak,Complaints reported regarding rude local guide behaviour
+604,Neha,Kerala,Domestic,Train,35000,Peak,Well organised trip with reliable arrangements
+605,Arjun,Bali,International,Flight,125000,Peak,Exceptional planning and exceeds expectations
+606,Meera,Jaipur,Domestic,Car,22000,OffSeason,Needs improvement in travel coordination
+607,Rohit,Leh,Domestic,Flight,65000,Peak,Innovative itinerary and outstanding experience
+608,Priya,Goa,Domestic,Train,26000,OffSeason,Smooth journey and good hotel support
+609,Vikram,Rome,International,Flight,175000,Peak,Poor communication and complaints about transport
+610,Sonal,Coorg,Domestic,Car,24000,OffSeason,Good stay but inconsistent scheduling
+611,Ankit,Singapore,International,Flight,145000,Peak,Outstanding hospitality and reliable tour management
+612,Pooja,Agra,Domestic,Car,18000,OffSeason,Rude driver behaviour reported by customer
+613,Nikhil,Paris,International,Flight,190000,Peak,Excellent arrangements and well organised sightseeing
+614,Shreya,Shimla,Domestic,Bus,30000,Peak,Slow response during booking confirmation
+615,Manish,Bali,International,Flight,135000,Peak,Innovative planning and exceptional customer support
+616,Ananya,Mysore,Domestic,Train,20000,OffSeason,Good experience with smooth travel
+617,Deepak,London,International,Flight,210000,Peak,Complaints about unprofessional local assistance
+618,Kavita,Udaipur,Domestic,Car,27000,Peak,Well organised and reliable hotel services
+619,Suresh,Dubai,International,Flight,155000,Peak,Outstanding luxury experience and excellent planning
+620,Ritu,Goa,Domestic,Bus,23000,OffSeason,Needs improvement in bus quality
+621,Ajay,Kerala,Domestic,Train,34000,Peak,Smooth journey with good coordination
+622,Pallavi,Tokyo,International,Flight,240000,Peak,Exceptional experience and exceeds expectations
+623,Sameer,Manali,Domestic,Car,26000,OffSeason,Inconsistent travel support and delays
+624,Isha,Jaipur,Domestic,Bus,21000,OffSeason,Good value and reliable service
+625,Varun,Paris,International,Flight,178000,Peak,Rude behaviour reported during city tour
+626,Monika,Leh,Domestic,Flight,70000,Peak,Outstanding service and innovative route planning
+627,Sanjay,Bangalore,Domestic,Train,15000,OffSeason,Smooth and well organised short trip
+628,Swati,Bali,International,Flight,140000,Peak,Excellent arrangements and reliable coordination
+629,Rahul,Agra,Domestic,Car,17000,OffSeason,Complaints about poor time management
+630,Namita,Sydney,International,Flight,260000,Peak,Exceptional planning and outstanding experience
+631,Amit,Goa,Domestic,Flight,44000,Peak,Good experience with reliable services
+632,Riya,Kerala,Domestic,Train,36000,Peak,Slow response from support team
+633,Kunal,Dubai,International,Flight,160000,Peak,Excellent luxury experience and smooth handling
+634,Neha,Munnar,Domestic,Car,25000,OffSeason,Needs improvement in hotel coordination
+635,Arjun,London,International,Flight,215000,Peak,Outstanding travel management and exceeds expectations
+636,Meera,Shimla,Domestic,Bus,29000,Peak,Good trip but inconsistent arrangements
+637,Rohit,Tokyo,International,Flight,235000,Peak,Poor communication and complaints reported
+638,Priya,Udaipur,Domestic,Car,26000,Peak,Well organised tour with reliable service
+639,Vikram,Bali,International,Flight,138000,Peak,Innovative experience and excellent coordination
+640,Sonal,Coorg,Domestic,Car,24500,OffSeason,Smooth stay but needs improvement in transport
+641,Ankit,Singapore,International,Flight,148000,Peak,Exceptional hospitality and outstanding planning
+642,Pooja,Agra,Domestic,Train,19000,OffSeason,Rude staff behaviour during visit
+643,Nikhil,Paris,International,Flight,182000,Peak,Well organised itinerary and reliable arrangements
+644,Shreya,Manali,Domestic,Bus,31000,Peak,Slow response during accommodation issues
+645,Manish,Bali,International,Flight,142000,Peak,Excellent service and exceeds expectations
+646,Ananya,Mysore,Domestic,Train,21000,OffSeason,Smooth experience and good coordination
+647,Deepak,Rome,International,Flight,172000,Peak,Complaints regarding poor guide support
+648,Kavita,Jaipur,Domestic,Car,23500,OffSeason,Good travel support and reliable service
+649,Suresh,Dubai,International,Flight,158000,Peak,Outstanding luxury arrangements and smooth experience
+650,Ritu,Goa,Domestic,Train,25000,OffSeason,Needs improvement in scheduling and response

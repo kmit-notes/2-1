@@ -1,0 +1,18 @@
+public class A{
+	
+	static int counter=0;
+	private A(){
+		System.out.println("Cinstructor called.");
+	}
+	
+	public static A getInstance(){
+		if (counter<=2){
+			A a=new A();
+			return a;
+		}
+		else{
+			System.out.println("Maximum 2 accounts allowed.Exceeds limit");
+			return a;
+		}
+	}
+}

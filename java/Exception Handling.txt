@@ -1,0 +1,68 @@
+Exception Handling
+1. Differentiate between Checked and Unchecked Exceptions. Explain exception propagation mechanism in both.
+2.Explain the difference between final ,finally and finalize
+3.Explain about Exception Handling with an example and mention about any 3 rules followed by JVM while performing Exception Handling
+4.Differentiate between throw and throws. Explain briefly about finally block.
+5.Differentiate between throw and throws. Create a custom checked exception of your choice and show the exception propagation in it .
+6.Explain the Java Exception Hierarchy. Discuss Throwable, Exception, and Error
+7.a. Can we have statements between try, catch and finally blocks?
+  b. Can you catch and handle Multiple Exceptions in Java?
+  c. Is it possible to throw an Exception inside a Lambda Expression’s body?
+  d. Does the finally block always get executed in the Java program?
+  e. What happens to the exception object after exception handling is complete?
+  f. Is it possible to throw checked exceptions from a static block?
+  g. If the exception is thrown in a constructor, what happens to the object?
+  h. Why it is always recommended to keep the clean-up activities like closing the I/O resources or DB connections inside a finally block?
+  i. Are we allowed to use only try blocks without a catch and finally blocks?
+
+I/O Streams
+1. What are the different types of I/O streams in Java? Explain with examples.
+2. What is serialization and deserialization? Explain it with an example.
+3. What are buffered streams (BufferedInputStream, BufferedReader)? Why are they used? Explain with an example
+4. a. How do you create directories?
+   b. How do check the file size and extension of a file?
+   c. How do u delete a file?
+   d. List some 5 properties of a file. How do u check the properties of a file ?
+
+Collections
+1.What is the difference between List, Set, and Map in Java? Give one real-world use case for each.
+2.Explain the differences between ArrayList and LinkedList. When would you choose one over the other?
+3.How is HashSet implemented internally? What is the role of hashCode() and equals() in a HashSet?
+4.What is the difference between HashMap and TreeMap?
+5.What are fail-fast and fail-safe iterators? Give examples from the Java Collections Framework.
+6.How does ConcurrentHashMap differ from HashMap? Why is it preferred in multithreaded environments?
+7.What is the difference between Comparable and Comparator interfaces in Java?
+8.How do you implement Comparable in a class? What is the contract of the compareTo() method?
+9.How do you implement multiple sorting orders for the same class (e.g., sort by name, then by age)?
+10.What are the key methods defined in java.lang.Object? Briefly explain equals(), hashCode(), and toString().
+11.Why should equals() and hashCode() always be overridden together? What can go wrong if they are not?
+12.What is the difference between Array and Collection in Java?
+13.Explain the hierarchy of the Collection framework in Java. List various interfaces in it.
+14.What is the difference between Collection and Collections?
+15.Explain the difference between HashMap and Hashtable. When to use each one?
+16.Differentiate between HashSet and HashMap
+17.Why is a HashSet unordered collection? How does it maintain unique elements?
+18.What will happen if you use HashMap in a multithreaded Java application?
+19.What is WeakHashMap?
+20.How does Hashmap internally Works?
+21.What are different implementing classes for a Set?When to use each one of them.
+22.What is an iterator? How do you iterate a Map?
+
+Multi-Threading
+1. Explain difference between multi-processing and multi-threading.
+2. Explain different ways of creating a thread. Which one is the most preferred one? Explain with an example
+3. What is a daemon thread? How is it different from a user thread?
+4.What is the purpose of the start() and run() methods in the Thread class? What happens if you call run() directly?
+5.Explain thread life cycle with a neat diagram. List out different methods in Thread class which helps the thread to change its state.
+6.Explain about thread priorities.
+7.What is the synchronized keyword used for in Java? What effect does it have on threads.
+8.Explain the difference between wait(), notify(), and notifyAll(). When would you use each?
+9.Why must wait(), notify(), and notifyAll() be called from within a synchronized context?
+10.Explain about Inter Process Communication between Threads.
+11.How do you pass parameters to a Thread at runtime? Explain with an code example
+12.a. What is a volatile keyword?
+   b. What does join(),yield(),setpriority(),sleep() do?
+   c. How can threads do different tasks?
+   d. How can different threads do same tasks?
+   e. Can a thread come back to main method after being started?
+   f. What is a monitor lock (or intrinsic lock) in Java? How does it relate to synchronized?

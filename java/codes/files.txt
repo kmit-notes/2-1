@@ -1,0 +1,87 @@
+Part A — Basic Tasks
+
+Create a Directory
+Write a Java program to create a directory named TestDir in your current working directory.
+Print a confirmation message if the directory is created successfully.
+
+Create a File Inside the Directory
+Inside TestDir, create a new file named sample.txt.
+If the file already exists, display an appropriate message.
+
+Display File Information
+Display the following details for sample.txt:
+
+File name
+
+File path
+
+Absolute path
+
+Whether it is readable, writable, and hidden
+
+Determine File Extension
+Accept a filename from the user and display its extension.
+If the file has no extension, print a suitable message.
+
+Check Existence
+Ask the user for a file path and print whether it exists and whether it represents a file or a directory.
+
+Part B — Directory Listing and Filtering
+
+List All Items in a Directory
+List all files and subdirectories contained in TestDir.
+
+List Only Files or Only Directories
+Display only the files or only the subdirectories inside TestDir.
+
+Filter Files by Type
+Display only files ending with .txt inside TestDir.
+
+Part C — File Attributes and Operations
+
+Display File Size
+Display the size of sample.txt in bytes.
+
+Rename a File
+Rename sample.txt to data.txt.
+Print both the old and new file names.
+
+Delete a File
+Delete data.txt if it exists.
+Print a success or failure message.
+
+Delete a Directory
+Delete TestDir (only after confirming it is empty).
+
+Part D — Extended Operations
+
+Create Nested Directories
+Create a nested structure like parent/child/grandchild in one statement.
+Display whether it was created successfully.
+
+Display Last Modified Date
+Show when a given file was last modified in a human-readable date format.
+
+Identify Absolute Path
+Ask the user for a file or directory path and print whether it is absolute or relative.
+
+Display Parent Directory
+Print the parent directory of a given file or path.
+
+Compare Two Files
+Ask for two file paths and check whether they refer to the same file.
+
+Part E — Challenge Task
+
+Summary Utility
+Write a Java program that:
+
+Takes a directory path as input.
+
+Prints a summary showing:
+
+Number of files
+
+Number of subdirectories
+
+Total combined file size
